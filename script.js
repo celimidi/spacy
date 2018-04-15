@@ -5,6 +5,10 @@ battleStation.draw()
 
 var mothership = new Mothership(100,100)
 mothership.draw()
+
+var rocket = new Rocket({x:-200,y:1000},{x:-100,y:100})
+rocket.draw()
+
 const OPTS = {
     fill:           'none',
     radius:         7.5,
